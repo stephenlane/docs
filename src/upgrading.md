@@ -20,11 +20,13 @@ If you've downloaded Learning Locker using Composer you will need to upgrade lik
 
 1. Copy your "bootstrap/start.php" file.
 2. Copy your "app/config/local" directory.
-3. Remove your Learning Locker directory.
-4. Run `composer create-project learninglocker/learninglocker learninglocker`.
-5. Run `cd learninglocker`.
-6. Replace "bootstrap/start.php" with your previously copied version.
-7. Replace your "app/config/local" directory with your previously copied version.
-8. Run `composer install`.
-9. Run `php artisan migrate`.
-10. Check the [release notes](https://github.com/LearningLocker/learninglocker/releases) for any further steps.
+3. Copy your "app/config/database.php" file
+4. Remove your Learning Locker directory.
+5. Run `composer create-project learninglocker/learninglocker learninglocker`.
+6. Run `cd learninglocker`.
+7. Replace "bootstrap/start.php" with your previously copied version.
+8. Replace your "app/config/local" directory with your previously copied version.
+9. Replace you "app/config/database.php" file with your previously copied version.
+10. Run `composer install`.
+11. Run `php artisan migrate`.
+12. Check the [release notes](https://github.com/LearningLocker/learninglocker/releases) for any further steps.
